@@ -54,7 +54,6 @@ console.log(person.hasOwnProperty(`name`)); // true - перевірка ная�
 
 
 //------------------------------------------------------
-
 let users = [
     {name: 'vasya', age: 31, status: false},
     {name: 'petya', age: 30, status: true},
@@ -69,7 +68,6 @@ let users = [
     {name: 'max', age: 31, status: true}
 ];
 
-
 for (let item of users){ // вивів кожен елемент масиву
     console.log(item);
 }
@@ -79,6 +77,8 @@ for (let item of users){ // вивів кожне імя елемента мас
 }
 
 for (let i= 0; i < users.length; i++){ // вивів кожен елемент масиву (можна корегувати діапазон виводу)
-    console.log(`${users[i]}`); /// (???????????)
+    console.log(users[i]); /// (???????????)
 }
+
+
 
