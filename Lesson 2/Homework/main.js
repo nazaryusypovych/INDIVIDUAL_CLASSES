@@ -5,8 +5,13 @@
 // Спосіб 1:
 
 // створює новий масив
+
+const array3 = [1, 5, `gjdna`, `jfndgrtnb`]
+
+
+
 function craftArray(array){
-    let newArray = [];
+    const newArray = [];
     for (let element of array) {
         newArray.push(element);
     }
@@ -14,10 +19,14 @@ function craftArray(array){
 }
 
 // виводить масив в консоль
-function getArray(array) {
-    console.log(array);
-
+function getArray() {
+    const arrayR = craftArray([[1, 5, `gjdna`, `jfndgrtnb`]]);
+    console.log(arrayR)
 }
+
+
+getArray();
+
 
 // Спосіб 2:
 
@@ -158,7 +167,18 @@ for (const user2Key in user2) {
 
 for (const user2Key in user2) {
     console.log(`${user2Key} - ${user2[user2Key]}`); // вивести значення
+
 }
+
+
+//------------------------------------------------
+
+
+
+//Скачати реакт
+//Діаграма коду
+//Повторити обєкти
+
 
 
 
